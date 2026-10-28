@@ -1,5 +1,18 @@
 # 🥣 Panganku Scraper
 
+> [!WARNING]
+> ### 🚨 DEPRECATED & MOVED TO [INDOSCRAPING](https://github.com/nichsedge/indoscraping)
+> This standalone repository is now **decommissioned**. The scraper and its clean dataset have been migrated and unified into the active monorepo suite [**indoscraping**](https://github.com/nichsedge/indoscraping).
+>
+> **New Scraper Location**: [`src/indoscraping/scraper/food/panganku.py`](https://github.com/nichsedge/indoscraping/blob/main/src/indoscraping/scraper/food/panganku.py)  
+> **How to Run in Indoscraping**:
+> ```bash
+> uv run indoscraping run panganku
+> uv run indoscraping inspect panganku
+> uv run indoscraping export panganku --format parquet|csv
+> ```
+> This repository is preserved read-only for historical reference.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-blue.svg)](https://nodejs.org)
 [![Tech Stack](https://img.shields.io/badge/tech-Node.js%20%7C%20Axios%20%7C%20Cheerio-brightgreen.svg)](#tech-stack)
